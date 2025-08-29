@@ -22,8 +22,7 @@
     "accessibility",
     "websocket",
     "realtime",
-    "sign-language",
-    "inclusion"
+    "sign-language"
   ],
   "author": "Viva Libras Team",
   "license": "MIT"
