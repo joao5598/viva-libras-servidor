@@ -71,7 +71,7 @@ app.get('/', (req, res) => {
     description: 'Sistema de chamadas em tempo real para interpretação em Libras',
     timestamp: currentTime.toISOString(),
     stats: {
-      uptime: \`\${uptimeMinutes} minutos\`,
+      uptime: uptimeMinutes + ' minutos',
       totalCalls: systemStats.totalCalls,
       activeCalls: callQueue.length,
       successfulCalls: systemStats.successfulCalls,
